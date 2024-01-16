@@ -20,6 +20,8 @@ namespace PortfolioWebsite.Controllers
 
         public IActionResult Skills()
         {
+            ViewBag.Frontend = new List<string> { "CSS", "Tailwind", "HTML", "JavaScript" };
+            ViewBag.Backend = new List<string> { "C#", "Python", "PHP", "ASP.NET MVC", "Blade" };
             return View();
         }
         
@@ -31,6 +33,20 @@ namespace PortfolioWebsite.Controllers
         public IActionResult Contact()
         {
             return View();
+        }
+        
+        public IActionResult ContactMe(ContactModel contactModel)
+        {
+            if (ModelState.IsValid)
+            {
+                Console.WriteLine("Sending email..." + contactModel.Name + " " + contactModel.Email + " " + contactModel.Message);
+                // Send the email
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View("Contact", contactModel);
+            }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

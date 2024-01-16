@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "titvCT9YWhrl3Nl8+IdeOJ8d0OU2xEX70ejpQa2w+PQ=",
+  "Hash": "GFta4w6maWJeSPcbZC3i3Qj20IG1OMqXfkyu7gM8UfU=",
   "Source": "PortfolioWebsite",
   "BasePath": "_content/PortfolioWebsite",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\143030855.jpg",
-      "SourceId": "PortfolioWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
-      "BasePath": "_content/PortfolioWebsite",
-      "RelativePath": "Images/143030855.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\143030855.jpg"
     },
     {
       "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\login_process.gif",

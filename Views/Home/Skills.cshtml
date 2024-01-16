@@ -2,6 +2,24 @@
     ViewData["Title"] = "Skills";
 }
 <h1>@ViewData["Title"]</h1>
-
 <p> Through the years I have worked with several languages and frameworks</p>
+
+<div>
+    <h6>Frontend</h6>
+    @foreach(var item in ViewBag.Frontend)
+    {
+        <button>@item</button>
+    }
+</div>
+
+<div>
+    <h6>Backend</h6>  
+    @foreach(var item in ViewBag.Backend)
+        {
+            <button>@item</button>
+        }
+</div>
+   
+
+
 
