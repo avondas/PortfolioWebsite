@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\PortfolioWebsite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\143030855.jpg",
+      "PackagePath": "staticwebassets\\Images\\143030855.jpg"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\login_process.gif",
+      "PackagePath": "staticwebassets\\Images\\login_process.gif"
+    },
+    {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
