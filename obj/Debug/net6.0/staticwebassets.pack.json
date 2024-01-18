@@ -5,8 +5,24 @@
       "PackagePath": "staticwebassets\\PortfolioWebsite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Fonts\\AstroSpace-eZ2Bg.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\AstroSpace-eZ2Bg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\CV.pdf",
+      "PackagePath": "staticwebassets\\Images\\CV.pdf"
+    },
+    {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\login_process.gif",
       "PackagePath": "staticwebassets\\Images\\login_process.gif"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\theme.png",
+      "PackagePath": "staticwebassets\\Images\\theme.png"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\galaxy_theme.css",
+      "PackagePath": "staticwebassets\\css\\galaxy_theme.css"
     },
     {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\site.css",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GFta4w6maWJeSPcbZC3i3Qj20IG1OMqXfkyu7gM8UfU=",
+  "Hash": "NCD50tL0o37r+fwe4xcZ5WSn4snAdhs4dv3E36EEJCY=",
   "Source": "PortfolioWebsite",
   "BasePath": "_content/PortfolioWebsite",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PortfolioWebsite.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\galaxy_theme.css",
+      "SourceId": "PortfolioWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
+      "BasePath": "_content/PortfolioWebsite",
+      "RelativePath": "css/galaxy_theme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\galaxy_theme.css"
+    },
+    {
       "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\site.css",
       "SourceId": "PortfolioWebsite",
       "SourceType": "Discovered",
@@ -85,6 +102,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Fonts\\AstroSpace-eZ2Bg.ttf",
+      "SourceId": "PortfolioWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
+      "BasePath": "_content/PortfolioWebsite",
+      "RelativePath": "Fonts/AstroSpace-eZ2Bg.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Fonts\\AstroSpace-eZ2Bg.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\CV.pdf",
+      "SourceId": "PortfolioWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
+      "BasePath": "_content/PortfolioWebsite",
+      "RelativePath": "Images/CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\CV.pdf"
+    },
+    {
       "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\login_process.gif",
       "SourceId": "PortfolioWebsite",
       "SourceType": "Discovered",
@@ -100,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\login_process.gif"
+    },
+    {
+      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\theme.png",
+      "SourceId": "PortfolioWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
+      "BasePath": "_content/PortfolioWebsite",
+      "RelativePath": "Images/theme.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\theme.png"
     },
     {
       "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\site.js",

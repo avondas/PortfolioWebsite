@@ -1,25 +1,36 @@
 ﻿@{
     ViewData["Title"] = "Skills";
 }
-<h1>@ViewData["Title"]</h1>
-<p> Through the years I have worked with several languages and frameworks</p>
+<section id="skills">
+    <h1>@ViewData["Title"]</h1>
+    <p> Through the years I have worked with several languages and frameworks</p>
 
-<div>
-    <h6>Frontend</h6>
-    @foreach(var item in ViewBag.Frontend)
-    {
-        <button>@item</button>
-    }
-</div>
-
-<div>
-    <h6>Backend</h6>  
-    @foreach(var item in ViewBag.Backend)
+    <div>
+        <h5>Frontend</h5>
+        @foreach(var item in ViewBag.Frontend)
         {
-            <button>@item</button>
+            <button class="skills_button">@item</button>
         }
-</div>
+    </div>
+
+    <div>
+        <h5><br>Backend</h5>  
+        @foreach(var item in ViewBag.Backend)
+        {
+            <button class="skills_button">@item</button>
+        }
+    </div>
+</section>
    
 
 
-
+@* /* CSS HEX */ *@
+@* --tuna: #313143; *@
+@* --viola: #bf8cac; *@
+@* --rum: #74628d; *@
+@* --wisteria: #9170ae; *@
+@* --woodsmoke: #161a19; *@
+@* --scarpa-flow: #585467; *@
+@* --old-lavender: #705f6f; *@
+@* --corduroy: #616c69; *@
+@* --lemon-grass: #9a9c91; *@

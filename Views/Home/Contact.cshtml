@@ -2,25 +2,27 @@
     ViewData["Title"] = "Contact";
 }
 @model ContactModel
-<h1>@ViewData["Title"]</h1>
-
-<p> You can contact me by filling out the below form, my resume can be downloaded here</p>
-
-<form asp-action="ContactMe">
-    <div class="row">
-        <input asp-for="Name" placeholder="Your Name" required />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
-    <div class="row">
-        <input asp-for="Email" placeholder="Your Email" type="email" required />
-        <span asp-validation-for="Email"></span>
-    </div>
-    <div class="row">
-        <input asp-for="Message" placeholder="Your Message..." required />
-        <span asp-validation-for="Message"></span>
-    </div>
-    
-    <div class="row button">
-        <input type="submit" value="Contact Me">
-    </div>
-</form>
+<section id="contact">
+     <h1>@ViewData["Title"]</h1>
+     
+     <p> You can contact me by filling out the below form, my resume can be downloaded <a style="font-family: cursive;" href="~/Images/CV.pdf" download>here</a></p> 
+     
+     <form asp-action="ContactMe">
+         <div class="row">
+             <input asp-for="Name" placeholder="Your Name" required />
+             <span asp-validation-for="Name" class="text-danger"></span>
+         </div>
+         <div class="row">
+             <input asp-for="Email" placeholder="Your Email" type="email" required />
+             <span asp-validation-for="Email"></span>
+         </div>
+         <div class="row">
+             <input asp-for="Message" placeholder="Your Message..." required />
+             <span asp-validation-for="Message"></span>
+         </div>
+         
+         <div class="row button">
+             <input type="submit" value="Contact Me">
+         </div>
+     </form>   
+</section>

@@ -39,8 +39,7 @@ namespace PortfolioWebsite.Controllers
         {
             if (ModelState.IsValid)
             {
-                Console.WriteLine("Sending email..." + contactModel.Name + " " + contactModel.Email + " " + contactModel.Message);
-                // Send the email
+                bool succes = contactModel.SendMail();
                 return RedirectToAction("Index");
             }
             else
