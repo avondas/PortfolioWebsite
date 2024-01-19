@@ -21,9 +21,7 @@ C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\staticwebassets\ms
 C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\scopedcss\bundle\PortfolioWebsite.styles.css
-C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\scopedcss\projectbundle\PortfolioWebsite.bundle.scp.css
 C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\PortfolioWebsite.dll
 C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\refint\PortfolioWebsite.dll
 C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\PortfolioWebsite.pdb

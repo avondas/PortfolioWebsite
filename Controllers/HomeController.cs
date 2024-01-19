@@ -20,8 +20,8 @@ namespace PortfolioWebsite.Controllers
 
         public IActionResult Skills()
         {
-            ViewBag.Frontend = new List<string> { "CSS", "Tailwind", "HTML", "JavaScript" };
-            ViewBag.Backend = new List<string> { "C#", "Python", "PHP", "ASP.NET MVC", "Blade" };
+            ViewBag.Frontend = ExperienceModel.GetExperience().Where(x => x.Description == "FrontEnd").Select(x=> new {x.Name, x.Years}).ToList();
+            ViewBag.Backend = ExperienceModel.GetExperience().Where(x => x.Description == "BackEnd").Select(x=> new {x.Name, x.Years}).ToList();
             return View();
         }
         

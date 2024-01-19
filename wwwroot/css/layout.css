@@ -37,11 +37,11 @@ header {
     text-decoration: none;
     background-color: #95658a;
     color: #161a19;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1rem;
     border-radius: 20px;
     border: none;
     outline: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: bold;
     cursor: pointer;
 }
@@ -75,56 +75,6 @@ header {
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
-}
-
-/* TEXT SECTION*/
-section#intro {
-    font-family: astro_space;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-}
-
-section#skills {
-    font-family: astro_space;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-}
-
-section#skills .skills_button {
-    background-color: #616c69;
-    color: #161a19;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-
-section#projects {
-    font-family: astro_space;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-}
-
-section#contact {
-    font-family: astro_space;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-}
-
-section#contact .button {
-    
 }
 
 /* Dropdown Menu */

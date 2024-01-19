@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PortfolioWebsite.bundle.scp.css",
-      "PackagePath": "staticwebassets\\PortfolioWebsite.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Fonts\\AstroSpace-eZ2Bg.ttf",
       "PackagePath": "staticwebassets\\Fonts\\AstroSpace-eZ2Bg.ttf"
     },
@@ -21,20 +17,36 @@
       "PackagePath": "staticwebassets\\Images\\theme.png"
     },
     {
-      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\galaxy_theme.css",
-      "PackagePath": "staticwebassets\\css\\galaxy_theme.css"
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
     },
     {
-      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\intro.css",
+      "PackagePath": "staticwebassets\\css\\intro.css"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\projects.css",
+      "PackagePath": "staticwebassets\\css\\projects.css"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\skills.css",
+      "PackagePath": "staticwebassets\\css\\skills.css"
     },
     {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\dropdown_control.js",
+      "PackagePath": "staticwebassets\\js\\dropdown_control.js"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\showExperience_control.js",
+      "PackagePath": "staticwebassets\\js\\showExperience_control.js"
     },
     {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",

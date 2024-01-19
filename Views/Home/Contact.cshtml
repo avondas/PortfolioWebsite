@@ -2,10 +2,15 @@
     ViewData["Title"] = "Contact";
 }
 @model ContactModel
+
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="/css/contact.css" type="text/css"/>
+</head>
 <section id="contact">
      <h1>@ViewData["Title"]</h1>
      
-     <p> You can contact me by filling out the below form, my resume can be downloaded <a style="font-family: cursive;" href="~/Images/CV.pdf" download>here</a></p> 
+     <p> You can contact me by filling out the below form, my resume can be downloaded <a style="color: white; text-decoration: underline" href="~/Images/CV.pdf" download>here</a></p> 
      
      <form asp-action="ContactMe">
          <div class="row">
@@ -21,7 +26,7 @@
              <span asp-validation-for="Message"></span>
          </div>
          
-         <div class="row button">
+         <div class="contact_button">
              <input type="submit" value="Contact Me">
          </div>
      </form>   
