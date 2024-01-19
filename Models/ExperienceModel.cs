@@ -2,11 +2,11 @@
 
 namespace PortfolioWebsite.Models;
 
-public class ExperienceModel : IEnumerable
+public class ExperienceModel
 {
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public int Years { get; set; }
+    public string Name { get; }
+    public string Description { get; }
+    public int Years { get; }
     
     public ExperienceModel(string name, string description, int years)
     {
@@ -32,6 +32,3 @@ public class ExperienceModel : IEnumerable
         return experience;
     }
 }
-
-// ViewBag.Frontend = new List<string> {  , , ,  };
-// ViewBag.Backend = new List<string> { "C#", "Python", "PHP", "ASP.NET MVC", "Blade" };
