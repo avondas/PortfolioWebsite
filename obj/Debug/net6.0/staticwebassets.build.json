@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zMJ3SE7axXJr1XTepWyIpYAMtOZVaJKKQtT3Smp6ElI=",
+  "Hash": "KAWF29iS8hDBSLsJ1UtK1YE4xOfuJssZ5btMZ/BWVfU=",
   "Source": "PortfolioWebsite",
   "BasePath": "_content/PortfolioWebsite",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\color_palette.css",
+      "SourceId": "PortfolioWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
+      "BasePath": "_content/PortfolioWebsite",
+      "RelativePath": "css/color_palette.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\color_palette.css"
+    },
     {
       "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\contact.css",
       "SourceId": "PortfolioWebsite",
@@ -153,12 +170,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\CV.pdf"
     },
     {
-      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\login_process.gif",
+      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\logo_blisdigital.jpg",
       "SourceId": "PortfolioWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
       "BasePath": "_content/PortfolioWebsite",
-      "RelativePath": "Images/login_process.gif",
+      "RelativePath": "Images/logo_blisdigital.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,7 +184,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\login_process.gif"
+      "OriginalItemSpec": "wwwroot\\Images\\logo_blisdigital.jpg"
     },
     {
       "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\theme.png",

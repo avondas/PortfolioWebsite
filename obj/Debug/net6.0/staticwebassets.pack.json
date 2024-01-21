@@ -9,12 +9,16 @@
       "PackagePath": "staticwebassets\\Images\\CV.pdf"
     },
     {
-      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\login_process.gif",
-      "PackagePath": "staticwebassets\\Images\\login_process.gif"
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\logo_blisdigital.jpg",
+      "PackagePath": "staticwebassets\\Images\\logo_blisdigital.jpg"
     },
     {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\Images\\theme.png",
       "PackagePath": "staticwebassets\\Images\\theme.png"
+    },
+    {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\color_palette.css",
+      "PackagePath": "staticwebassets\\css\\color_palette.css"
     },
     {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\css\\contact.css",

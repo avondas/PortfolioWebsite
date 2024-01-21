@@ -23,7 +23,7 @@ public class ContactModel
         
         email.Subject = "Let's Connect!";
         email.Body = new TextPart(MimeKit.Text.TextFormat.Text) { 
-            Text = Message
+            Text = Name + " : " + Email + "\n" + Message
         };
         
         //? send the email

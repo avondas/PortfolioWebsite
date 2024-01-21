@@ -10,19 +10,19 @@
 <section id="contact">
      <h1>@ViewData["Title"]</h1>
      
-     <p> You can contact me by filling out the below form, my resume can be downloaded <a style="color: white; text-decoration: underline" href="~/Images/CV.pdf" download>here</a></p> 
+     <p> You can contact me by filling out the below form.<br>My resume can be downloaded <a style="color: white; text-decoration: underline" href="~/Images/CV.pdf" download>here</a></p> 
      
      <form asp-action="ContactMe">
-         <div class="row">
+         <div class="form_input">
              <input asp-for="Name" placeholder="Your Name" required />
              <span asp-validation-for="Name" class="text-danger"></span>
          </div>
-         <div class="row">
+         <div class="form_input">
              <input asp-for="Email" placeholder="Your Email" type="email" required />
              <span asp-validation-for="Email"></span>
          </div>
-         <div class="row">
-             <input asp-for="Message" placeholder="Your Message..." required />
+         <div class="form_message">
+             <textarea asp-for="Message" placeholder="Your Message..." required ></textarea>
              <span asp-validation-for="Message"></span>
          </div>
          
