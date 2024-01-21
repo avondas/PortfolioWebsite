@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yc9Y/ldNDkh1K2KqY2vp2LH/qoZdQ2zSAF8kyZ1H1v4=",
+  "Hash": "zMJ3SE7axXJr1XTepWyIpYAMtOZVaJKKQtT3Smp6ElI=",
   "Source": "PortfolioWebsite",
   "BasePath": "_content/PortfolioWebsite",
   "Mode": "Default",
@@ -187,12 +187,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\theme.png"
     },
     {
-      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\dropdown_control.js",
+      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\projectsDisplay_controller.js",
       "SourceId": "PortfolioWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
       "BasePath": "_content/PortfolioWebsite",
-      "RelativePath": "js/dropdown_control.js",
+      "RelativePath": "js/projectsDisplay_controller.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,7 +201,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\dropdown_control.js"
+      "OriginalItemSpec": "wwwroot\\js\\projectsDisplay_controller.js"
     },
     {
       "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\showExperience_control.js",

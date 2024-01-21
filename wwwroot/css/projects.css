@@ -7,25 +7,72 @@
     color: black;
 }
 
-section#projects a {
-    font-size: 1.2rem;
-    color: #bf8cac;
-}
-
 section#projects ul {
     display: inline-block;
     padding: 0.5rem 1rem;
     background-color: rgba(116, 98, 141, 0.8); /* rgba allows for opacity w/out changing anything else */
 }
 
-/* sets sidebar centered on mobile */
-@media (max-width: 768px) {
-    .sidebar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+/*to show the blis digital project*/
+section#projects .toggle_blis {
+    color: #bf8cac;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
 }
+
+section#projects .blis_digital {
+    padding: 1rem;
+    display: none;
+    position: relative;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 60rem;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+section#projects .blis_digital.open {
+    height: 34rem;
+    display: inline-block;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will vertically center the a tag if the paragraph has multiple lines */
+}
+
+/*to show the dice roller project*/
+section#projects .toggle_dice {
+    color: #bf8cac;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+}
+
+section#projects .dice_roller {
+    padding: 1rem;
+    display: none;
+    position: relative;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 60rem;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+section#projects .dice_roller.open {
+    height: 40rem;
+    display: inline-block;
+}
+
 /*@* !* CSS HEX *! *@*/
 /*@* --tuna: #313143; *@*/
 /*@* --viola: #bf8cac; *@*/
