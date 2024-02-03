@@ -34,3 +34,4 @@ C:\Users\avien\source\repos\PortfolioWebsite\bin\Debug\net6.0\BouncyCastle.Crypt
 C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\PortfolioWebsite.csproj.CopyComplete
 C:\Users\avien\source\repos\PortfolioWebsite\bin\Debug\net6.0\DotNetEnv.dll
 C:\Users\avien\source\repos\PortfolioWebsite\bin\Debug\net6.0\Sprache.dll
+C:\Users\avien\source\repos\PortfolioWebsite\obj\Debug\net6.0\PortfolioWebsite.sourcelink.json

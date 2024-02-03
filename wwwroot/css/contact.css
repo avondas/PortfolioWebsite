@@ -43,7 +43,7 @@ section#contact .form_message textarea {
 
 section#contact .form_input input::placeholder,
 section#contact .form_message textarea::placeholder {
-    color: #161a19; /* Change this to your desired color */
+    color: #161a19;
 }
 
 section#contact .contact_button {
