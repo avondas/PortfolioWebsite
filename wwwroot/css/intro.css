@@ -1,8 +1,15 @@
 ﻿section#intro {
     font-family: astro_space;
     height: calc(100vh - 60px);
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.intro-text {
+    height: 11rem;
+    width: 76rem;
     color: black;
+    background-color: rgba(116, 98, 141, 0.5);
 }
