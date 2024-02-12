@@ -13,7 +13,7 @@ jobs:
     # uses GitHub's checkout action to checkout code form the master branch
     - uses: actions/checkout@v2
     
-    # sets up .NET Core SDK 3.1
+    # sets up .NET Core SDK 8.0
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v1
       with:
@@ -23,8 +23,8 @@ jobs:
     - name: Publish .NET Core Project
       run: dotnet publish PortfolioWebsite.csproj -c Release -o release --nologo
     
-    # changes the base-tag in index.html from '/' to 'BlazorGitHubPagesDemo' to match GitHub Pages repository subdirectory
-    - name: Change base-tag in index.html from / to BlazorGitHubPagesDemo
+    # changes the base-tag in index.html from '/' to 'PortfolioWebsite' to match GitHub Pages repository subdirectory
+    - name: Change base-tag in index.html from / to PortfolioWebsite
       run: sed -i 's/<base href="\/" \/>/<base href="\/PortfolioWebsite\/" \/>/g' release/wwwroot/index.html
 
     # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
@@ -32,7 +32,7 @@ jobs:
       run: touch release/wwwroot/.nojekyll
       
     - name: Commit wwwroot to GitHub Pages
-      uses: avondas/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
