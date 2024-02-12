@@ -25,9 +25,27 @@
                 <a class="nav_button" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
             </li>
         </ul>
+        <div class="toggle_button">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    
+    <div class="dropdown_menu">
+        <li>
+            <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </li>
+        <li>
+            <a asp-area="" asp-controller="Home" asp-action="Skills">Skills</a>
+        </li>
+        <li>
+            <a asp-area="" asp-controller="Home" asp-action="Projects">Projects</a>
+        </li>
+        <li>
+            <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+        </li>
     </div>
 </header>
-
+<script src="~/js/dropdownController.js"></script>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\dropdownController.js",
+      "PackagePath": "staticwebassets\\js\\dropdownController.js"
+    },
+    {
       "Id": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\projectsDisplay_controller.js",
       "PackagePath": "staticwebassets\\js\\projectsDisplay_controller.js"
     },

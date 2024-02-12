@@ -25,17 +25,15 @@ section#projects .blis_digital {
     padding: 1rem;
     display: none;
     position: relative;
-    right: 2rem;
-    top: 60px;
     height: 0;
-    width: 60rem;
+    width: 100%;
     backdrop-filter: blur(5px);
     border-radius: 10px;
-    overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 section#projects .blis_digital.open {
+    overflow: auto;
     height: 32rem;
     display: inline-block;
 }
@@ -43,7 +41,6 @@ section#projects .blis_digital.open {
 p {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* This will vertically center the a tag if the paragraph has multiple lines */
 }
 
 /*to show the dice roller project*/
@@ -58,17 +55,46 @@ section#projects .dice_roller {
     padding: 1rem;
     display: none;
     position: relative;
-    right: 2rem;
-    top: 60px;
     height: 0;
-    width: 60rem;
+    width: 100%;
     backdrop-filter: blur(5px);
     border-radius: 10px;
-    overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 section#projects .dice_roller.open {
     height: 40rem;
     display: inline-block;
+    overflow: auto;
 }
+
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .dice_roller.open, .blis_digital.open {
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+    }
+    
+    .blis_digital p {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .dice_roller.open, .blis_digital.open {
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blis_digital p {
+        flex-direction: column;
+    }
+    
+    .dice_roller img {
+        display: none;
+    }
+}
+

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DqkXyclNrHM7yQGY0eb5jbEc74+a/qSGm6nvDYhNiRs=",
+  "Hash": "BYg1v7ogT+010MdjI09Kcx2zMQP3fnI6EnLlEHK0Yvw=",
   "Source": "PortfolioWebsite",
   "BasePath": "_content/PortfolioWebsite",
   "Mode": "Default",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\theme.png"
+    },
+    {
+      "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\dropdownController.js",
+      "SourceId": "PortfolioWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\",
+      "BasePath": "_content/PortfolioWebsite",
+      "RelativePath": "js/dropdownController.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dropdownController.js"
     },
     {
       "Identity": "C:\\Users\\avien\\source\\repos\\PortfolioWebsite\\wwwroot\\js\\projectsDisplay_controller.js",
