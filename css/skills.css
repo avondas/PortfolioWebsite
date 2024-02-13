@@ -9,6 +9,7 @@
 }
 
 section#skills .skills_button {
+    font-family: astro_space;
     background-color: #616c69;
     color: #161a19;
     padding: 0.5rem 1rem;
