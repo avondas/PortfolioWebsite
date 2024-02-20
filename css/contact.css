@@ -8,19 +8,20 @@
     padding: 0 20%;
 }
 
-section#contact .contact_button {
-    width: 20rem;
-    height: 30px;
-}
 
-section#contact .contact_button input{
-    font-family: astro_space;
-    background-color: #bf8cac;
-    border-radius: 5px;
-    width: 12rem;
-    height: 2rem;
-    font-size: 1.2rem;
-    padding: .3rem;
+
+section#contact .contact_button {
+    margin-top: .5rem;
+
+    a {
+        width: 20rem;
+        height: 30px;
+        font-family: astro_space;
+        background-color: #bf8cac;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        padding: .3rem;
+    }
 }
 
 /*section#contact .form_input {*/
