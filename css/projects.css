@@ -8,13 +8,6 @@
     padding: 0 20%;
 }
 
-section#projects .intro {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-    background-color: rgba(116, 98, 141, 0.6); /* rgba allows for opacity w/out changing anything else */
-}
-
 section#projects ul {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -79,6 +72,16 @@ section#projects .dice_roller.open {
 
 
 /* Responsive Design */
+@media (max-width: 1922px) {
+    section#projects .intro {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        background-color: rgba(116, 98, 141, 0.6); /* rgba allows for opacity w/out changing anything else */
+    }
+}
+
+
 @media (max-width: 992px) {
     .dice_roller.open, .blis_digital.open {
         display: flex;
