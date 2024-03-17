@@ -35,6 +35,12 @@ const backend = [
     ["Blade", 1]
 ]
 
+const database = [
+    ["PostgreSQL", 2],
+    ["MySQL", 2],
+    ["SQLite", 1]
+]
+
 function template(name, years) {
     return `<button class="skills_button" onclick="showExperience(this, ' ${years} years experience')">${name}</button>`
 }
@@ -46,3 +52,7 @@ frontend.forEach(item => frontend_selector.innerHTML += template(item[0], item[1
 const backend_selector = document.querySelector(".backend_buttons")
 
 backend.forEach(item => backend_selector.innerHTML += template(item[0], item[1]))
+
+const database_selector = document.querySelector(".database_buttons")
+
+database.forEach(item => database_selector.innerHTML += template(item[0], item[1]))
