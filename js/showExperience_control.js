@@ -23,20 +23,21 @@
 const frontend = [
     ["CSS", 2],
     ["Tailwind", 1],
-    ["HTML", 2],
-    ["JavaScript", 2]
+    ["HTML", 3],
+    ["JavaScript", 2],
+    ["TypeScript", 2]
 ]
 
 const backend = [
-    ["C#", 3],
-    ["Python", 4],
-    ["PHP", 2],
-    ["ASP.NET MVC", 3],
+    ["C#", 4], 
+    ["Python", 5], 
+    ["PHP", 2], 
+    ["ASP.NET MVC", 4], 
     ["Blade", 1]
 ]
 
 const database = [
-    ["PostgreSQL", 2],
+    ["PostgreSQL", 3],
     ["MySQL", 2],
     ["SQLite", 1]
 ]
