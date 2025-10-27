@@ -1,0 +1,16 @@
+﻿section#about {
+    font-family: astro_space;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    padding: 0 20%;
+}
+
+section#about p {
+    font-size: medium;
+}
+
+section#about li {
+    font-size: small;
+}
