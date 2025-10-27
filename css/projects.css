@@ -10,30 +10,36 @@
 
 section#projects ul {
     display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: rgba(116, 98, 141, 0.8); /* rgba allows for opacity w/out changing anything else */
+    padding: 0.5rem;
+    background-color: rgba(97, 108, 105, 0.75);
 }
 
-/*to show the blis digital project*/
-section#projects .toggle_blis {
-    color: #bf8cac;
+/*to show the projects*/
+section#projects .toggle_blis, .toggle_book, .toggle_dh {
+    color: #313143;
     font-size: 1.2rem;
     cursor: pointer;
     display: block;
+
+    i {
+        display: inline-block;
+        width: 40px;
+        text-align: center;
+    }
 }
 
-section#projects .blis_digital {
+section#projects .blis_digital, .daggerheart, .book_app {
     padding: .5rem;
     display: none;
     position: relative;
     height: 0;
     width: 100%;
-    background-color: rgba(116, 98, 141, 0.5);
+    background-color: rgba(97, 108, 105, 0.75);
     border-radius: 10px;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-section#projects .blis_digital.open {
+section#projects .blis_digital.open, .daggerheart.open, .book_app.open {
     overflow: auto;
     height: 18rem;
     display: inline-block;
@@ -44,64 +50,12 @@ p {
     align-items: center;
 }
 
-/*to show the book tracking app project*/
-section#projects .toggle_book {
-    color: #bf8cac;
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: block;
-    padding-top: .5rem;
-}
-
-section#projects .book_app {
-    padding: .5rem;
-    display: none;
-    position: relative;
-    height: 0;
-    width: 100%;
-    background-color: rgba(116, 98, 141, 0.5);
-    border-radius: 10px;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-section#projects .book_app.open {
-    height: 30rem;
-    display: inline-block;
-    overflow: auto;
-}
-
-/*to show the daggerheart project*/
-section#projects .toggle_dh {
-    color: #bf8cac;
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: block;
-    padding-top: .5rem;
-}
-
-section#projects .daggerheart {
-    padding: .5rem;
-    display: none;
-    position: relative;
-    height: 0;
-    width: 100%;
-    background-color: rgba(116, 98, 141, 0.5);
-    border-radius: 10px;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-section#projects .daggerheart.open {
-    height: 30rem;
-    display: inline-block;
-    overflow: auto;
-}
-
 @media (max-width: 1922px) {
     section#projects .intro {
         display: flex;
         flex-direction: column;
         margin-bottom: 1rem;
-        background-color: rgba(116, 98, 141, 0.6); /* rgba allows for opacity w/out changing anything else */
+        background-color: rgba(97, 108, 105, 0.75);
     }
 
     .book_app.open, .blis_digital.open, .daggerheart.open {

@@ -14,3 +14,8 @@ section#about p {
 section#about li {
     font-size: small;
 }
+
+section#about div {
+    padding: 0.5%;
+    background-color: rgba(97, 108, 105, 0.75);
+}
