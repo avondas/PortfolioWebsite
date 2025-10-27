@@ -9,33 +9,7 @@
 }
 
 .intro-text {
-    height: 6rem;
     width: 100%;
     color: black;
     background-color: rgba(116, 98, 141, 0.5);
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .intro-text {
-        height: 10rem;
-    }
-}
-
-@media (max-width: 992px) {
-    .intro-text {
-        height: 15rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .intro-text {
-        height: 20rem;
-    }
-}
-
-@media (max-width: 360px) {
-    .intro-text {
-        height: 22rem;
-    }
 }
