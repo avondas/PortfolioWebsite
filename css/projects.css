@@ -15,7 +15,7 @@ section#projects ul {
 }
 
 /*to show the projects*/
-section#projects .toggle_blis, .toggle_book, .toggle_dh {
+section#projects .project_toggle {
     color: #313143;
     font-size: 1.2rem;
     cursor: pointer;
@@ -28,7 +28,7 @@ section#projects .toggle_blis, .toggle_book, .toggle_dh {
     }
 }
 
-section#projects .blis_digital, .daggerheart, .book_app {
+section#projects .project_content {
     padding: .5rem;
     display: none;
     position: relative;
@@ -39,7 +39,7 @@ section#projects .blis_digital, .daggerheart, .book_app {
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-section#projects .blis_digital.open, .daggerheart.open, .book_app.open {
+section#projects .project_content.open {
     overflow: auto;
     height: 18rem;
     display: inline-block;
@@ -58,7 +58,7 @@ p {
         background-color: rgba(97, 108, 105, 0.75);
     }
 
-    .book_app.open, .blis_digital.open, .daggerheart.open {
+    .project_content.open {
         display: flex;
         overflow: auto;
         flex-direction: column;
