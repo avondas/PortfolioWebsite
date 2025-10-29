@@ -20,15 +20,23 @@ li {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    color: #705f6f;
+section {
     font-family: astro_space;
-    font-size: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-a:hover {
-    color: #585467;
+.intro {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7), 4px 4px 10px white;
+}
+
+a {
+    text-decoration: none;
+    font-family: astro_space;
+    font-size: 1rem;
+    /* color: white; */
 }
 
 /* Header */
@@ -39,16 +47,19 @@ header {
 }
 
 .nav_button {
-    text-decoration: none;
-    background-color: #95658a;
-    color: #161a19;
-    padding: 0.6rem 1rem;
-    border-radius: 20px;
+    color:#bf8cac;
+    background-color: rgba(0, 0, 0, 0.6);
     border: none;
-    outline: none;
-    font-size: 0.9rem;
-    font-weight: bold;
-    cursor: pointer;
+    border-radius: 5px; 
+    padding: 10px 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8), 0 0 10px rgb(116, 98, 141) , 0 0 20px #bf8cac;
+    transition: all 0.3s ease;
+}
+
+.nav_button:hover, .dropdown_menu li:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8), 0 0 15px rgb(116, 98, 141), 0 0 30px #bf8cac, 0 0 45px rgba(191, 140, 172, 0.8);
+    color: white; 
 }
 
 .navbar {
@@ -66,19 +77,7 @@ header {
     gap: 2rem;
 }
 
-.navbar .links li {
-    opacity: 1;
-    transition: opacity 0.2s ease-in;
-}
-
-.navbar .links li:hover {
-    opacity: 0.5;
-}
-
 .navbar .toggle_button {
-    color: #9170ae;
-    font-size: 1.5rem;
-    cursor: pointer;
     display: none;
 }
 
@@ -90,7 +89,6 @@ header {
     top: 60px;
     height: 0;
     width: 300px;
-    background-color: #9a9c91;
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -98,7 +96,7 @@ header {
 }
 
 .dropdown_menu.open {
-    height: 145px;
+    height: 120px;
 }
 
 .dropdown_menu li {
@@ -106,19 +104,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.dropdown_menu li:hover {
-    background-color: #705f6f;
-    
-    a {
-        color:#161a19
-    }
-}
-
-.dropdown_menu a{
-    color: #705f6f;
-    font-size: 1.5rem;
+    color:#bf8cac;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Responsive Design */

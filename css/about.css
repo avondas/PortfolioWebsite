@@ -1,8 +1,4 @@
 ﻿section#about {
-    font-family: astro_space;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     color: black;
     padding: 0 20%;
 }
@@ -17,5 +13,4 @@ section#about li {
 
 section#about div {
     padding: 0.5%;
-    background-color: rgba(97, 108, 105, 0.75);
 }
