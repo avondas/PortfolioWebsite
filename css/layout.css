@@ -106,6 +106,10 @@ header {
     justify-content: center;
     color:#bf8cac;
     background-color: rgba(0, 0, 0, 0.6);
+
+    a:active {
+        color: #bf8cac;
+    }
 }
 
 /* Responsive Design */
